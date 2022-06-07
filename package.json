@@ -1,6 +1,6 @@
 {
     "name": "img-formats",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Format a buffer into multiple sizes and formats for SEO optimization",
     "keywords": [
         "media",
