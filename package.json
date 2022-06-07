@@ -1,0 +1,69 @@
+{
+    "name": "img-formats",
+    "version": "0.0.2",
+    "description": "Format a buffer into multiple sizes and formats for SEO optimization",
+    "keywords": [
+        "media",
+        "strapi",
+        "formats",
+        "seo",
+        "sharp"
+    ],
+    "homepage": "https://github.com/agmoss/img-formats#readme",
+    "bugs": {
+        "url": "https://github.com/agmoss/img-formats/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/agmoss/img-formats.git"
+    },
+    "license": "MIT",
+    "author": "Andrew Moss <andrew@m0ss.dev>",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "src": "src"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "test": "jest",
+        "build": "tsc",
+        "prepublish": "yarn run build",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "lint": "eslint 'src/**/*.ts' --fix",
+        "release": "standard-version"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.15",
+        "@types/debug": "^4.1.5",
+        "@types/jest": "^28.1.1",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "^17.0.13",
+        "@types/sharp": "^0.30.2",
+        "@typescript-eslint/eslint-plugin": "^5.10.1",
+        "@typescript-eslint/parser": "^5.10.1",
+        "axios": "^0.27.2",
+        "chai": "^4.3.4",
+        "eslint": "^8.8.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-standard": "^16.0.2",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "jest": "^28.1.0",
+        "mocha": "^9.2.0",
+        "prettier": "^2.5.1",
+        "standard-version": "^9.3.2",
+        "ts-jest": "^28.0.4",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.5"
+    },
+    "dependencies": {
+        "fp-ts": "^2.12.1",
+        "sharp": "^0.30.5"
+    }
+}
